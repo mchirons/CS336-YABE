@@ -1,0 +1,115 @@
+@CHARSET "ISO-8859-1";
+
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;	
+}
+
+.container {
+	max-width: 940px;
+	margin: 0 auto;
+}
+
+/*Header*/
+
+#logo {
+	text-decoration: none;
+}
+
+.header h1 {
+	margin: 25px 0 0 0;
+	padding: 0;
+}
+
+.header ul {
+	margin: 35px 0 0 0;
+	padding: 0; 
+	list-style: none;
+	text-align: right;
+}
+
+.header li {
+	margin: 0;
+	padding: 0 5px;
+	text-align: right;
+	display: inline-block;
+}
+
+/*Auction*/
+
+.auction {
+	text-align: center;
+}
+
+
+/*Feature*/
+
+.feature h3 {
+	margin-left: 100px;
+}
+
+.feature p {
+	margin-left: 100px;
+}
+
+.feature .row {
+	border: 1px solid #000000;
+	margin: 10px;
+	padding: 10px;
+	z-index: 10;
+}
+
+/*Search*/
+
+.search form {
+	margin: 20px;
+	text-align: center;
+}
+
+#search {
+	width: 400px;
+}
+
+.search a {
+	padding-left: 20px;
+}
+
+/*Sort*/
+
+.sort {
+	text-align: right;
+}
+
+.sort p {
+	display: inline;
+}
+
+/*Logo*/
+#y {
+	color:#88b719;
+	font-family:Arial;
+	font-weight:bold; 
+}
+
+#a {
+	color:#f4ae01;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+#b {
+	color:#0064d3;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+#e {
+	color:#e53238;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+
+
+

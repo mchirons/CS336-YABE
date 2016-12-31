@@ -1,0 +1,11 @@
+User (userId:int, name:string, password:string, email:string, active:bit,  primaryKey(userId))
+Alert(alertId:int, itemType:string, trait1:string, trait2:string, trait3:string, userId:int, primaryKey(alertId) ,foreignKey(userId))
+Item_Posted (itemId:int, closeDateTime:date/time, minBid:float, postDateTime:date/time, userId:int primaryKey(itemId), foreignKey(userId))
+Vehicles (itemId:int, color:string, horsePower:int, mileage:int, milesPerGallon:int, manufacturer:string, model:string, year:string, primaryKey(itemId), foreignKey(itemId))
+Car (itemId:int, numDoors:int, seats:int, primaryKey(itemId), foreignKey(itemId))
+Truck (itemId:int, numDoors:int, seats:int, towCapacity:int, primaryKey(itemId), foreignKey(itemId))
+Motorcycle (itemId:int, handlebarType:string, seatType:string, primaryKey(itemId), foreignKey(itemId))
+Bid(bidId:int, amount:float, dateTime:date/time, maxAmount:float, userId:int, itemId:int, primaryKey(bidId), foreignKey(userId), foreignKey(itemId))
+CustomerRep (repId:int, name:string, email:string, password:string, primaryKey(repId))
+
+We may add more attributes to any of these tables. 

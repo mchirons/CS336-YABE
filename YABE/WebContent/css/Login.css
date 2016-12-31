@@ -1,0 +1,55 @@
+@CHARSET "ISO-8859-1";
+
+.button {
+	width:75px; 
+	border:2px solid black; 
+	background-color:#b8b8f9; 
+	text-align:center;
+	text-color: black;
+}
+
+body {
+	background-color: #E5E8B6;
+}
+
+a {
+	text-decoration:none;
+	color: black;
+}
+
+
+input[type=text] {
+	border: 2px solid #586994;
+	border-radius: 4px;
+	background-color: #B4C4AE; 
+}
+
+input[type=password] {
+	border: 2px solid #586994;
+	border-radius: 4px;
+	background-color: #B4C4AE; 
+}
+
+#y {
+	color:#88b719;
+	font-family:Arial;
+	font-weight:bold; 
+}
+
+#a {
+	color:#f4ae01;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+#b {
+	color:#0064d3;
+	font-family:Arial;
+	font-weight:bold;
+}
+
+#e {
+	color:#e53238;
+	font-family:Arial;
+	font-weight:bold;
+}
